@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
+
+:root {
+    --primary-color: lightCoral;
+    --secondary-color: dimgrey;
+    --tertiary-color: gainsboro;
+}
+
+body {
+    font-family: Lato, sans-serif;
+    background-color: var(--secondary-color);
+    font-size: 12px;
+}
+
+#container {
+    height: 430px;
+    width: 370px;
+    background-color: #f7f7f7;
+    border-radius: 10px;
+    margin: 100px auto;
+    box-shadow: 5px 5px 5px;
+}
+
+img {
+    width: 100px;
+    border-radius: 10px;
+}
+
+.title {
+    padding: 20px 20px 0 20px;
+    font-size: 10px;
+    font-weight: normal;
+    text-align: center;
+}
+
+.gasForm, label, button, #totalGas, footer {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+
+.formInput {
+    background-color: white;
+    width: 250px;
+    height: 20px;
+    border-radius: 5px;
+}
+
+button {
+    border-radius: 5px;
+}

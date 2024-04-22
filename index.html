@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Calculadora de combustível</title>
+</head>
+<body>
+    <div id="container">
+
+        <div class="title">
+        <img src="imagens/paniel.webp" alt="imagem nível de combustível" width="150px">           
+        <h1>Calculadora de combustível mensal</h1>
+        </div>
+        
+        <div class="formulario">
+            <form action="#" id="gasForm" class="gasForm">
+                <label for="km">
+                    <p>Quilômetros rodados por mês:</p>
+                </label>
+                <input type="number" placeholder="200" name="km" id="km" class="formInput" required>
+                <label for="consumo">
+                    <p>Consumo do veículo (km/l):</p>
+                </label>
+                <input type="number" placeholder="15" name="consumo" id="consumo" class="formInput" required>
+                <label for="valor">
+                    <p>Preço do combustível por litro:</p>
+                </label>
+                <input type="number" placeholder="4.99" name="valor" id="valor" class="formInput" required>
+            </form>
+            <br>
+            <button onclick="resultado()">Calcular</button>
+
+            <section id="totalGas">
+                <p>Preencha corretamente os dados.</p>
+            </section>
+
+        </div>
+    </div>
+    <footer>
+        <p>2024 &copy; Pollyana Masiero Torquato</p>
+    </footer>
+    <script type="text/javascript" src="script.js"></script>
+</body>
+</html>
