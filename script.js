@@ -14,7 +14,7 @@ function resultado() {
     if (km1 == '' || cons1 == '' || val1 == '') {
         window.alert('Por favor, insira todos os dados')
     } else {
-        res.innerHTML = `<p>Seu gasto mensal com combustível é de: R$${total}</p>`
+        res.innerHTML = `<p>Seu gasto mensal com combustível é de: <strong>R$${total}</strong></p>`
     }
     
 }
